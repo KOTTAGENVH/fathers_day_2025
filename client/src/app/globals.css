@@ -20,7 +20,9 @@
 }
 
 body {
-  background: var(--background);
+  background: #0F2027; /* fallback */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); /* older Chrome/Safari */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* modern browsers */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
